@@ -1,0 +1,849 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('ima.gif');
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  color:white;
+  font-weight: 900;
+  background-color: rgb(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+
+
+#top:hover {
+  cursor: pointer;
+  background-color: rgb(121, 153, 140);
+}
+
+.test {
+  animation: testing 5s linear infinite; }
+
+@keyframes testing {
+  0% {
+    box-shadow: 10px 10px 1em  rgb(231, 149, 17, 0.7)}
+
+  20% { 
+    box-shadow: 5px 5px 0.5em rgb(231, 149, 17, 0.7);
+  }
+
+  40% { 
+    box-shadow: 7px 7px 0.75em rgb(231, 149, 17, 0.7);
+  }
+
+  70% { 
+    box-shadow:3px 3px 0.25em rgb(231, 149, 17, 0.7);
+  }
+
+  100% { 
+    box-shadow: 8px 8px 0.8em rgb(231, 149, 17, 0.7);
+  }
+    
+}
+
+.light {
+  animation: lighting 5s infinite alternate-reverse; }
+
+@keyframes lighting {
+
+  100% { 
+    box-shadow:4px 4px 0.2em rgba(255, 255, 255);
+  }
+
+   50% { 
+    box-shadow: 4px 4px 0.2em rgb(231, 149, 17);
+  } 
+    
+}
+    
+header {
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#link-bio {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#me {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900; 
+  color:white;
+}
+
+.icones-header {
+  border-radius: 5px;
+}
+
+.icones-header:hover {
+  cursor: pointer;
+}
+
+#indice {
+  margin-top: 30px;
+}
+
+#indice ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+#indice li a {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0, 0.7);
+  font-size: 35px;
+  font-weight: 700;
+  color:white;
+  width: 100px;
+  height: 40px;
+  padding: 20px;
+  box-shadow: 10px 10px 1em rgb(231, 149, 17, 0.7);
+}
+
+
+#indice li a:hover {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(129, 166, 187, 0.8);
+  color: yellow;
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  font-size: 45px;
+  
+}
+
+#about-me {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: white;
+  box-shadow: 10px 10px 1em rgb(231, 149, 17, 0.7);
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sobremim {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+#softskills ul {
+  display: flex;
+  list-style: none;
+}
+
+#softskills ul li {
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.9);
+  border-radius: 10px;
+  box-shadow: 5px 5px 0.5em rgb(231, 149, 17, 0.7);
+}
+ 
+#hardskills {
+  background-color: rgb(0, 0, 0, 0.7);
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 1em rgb(231, 149, 17, 0.7);
+}
+
+#hardskills ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;  
+}
+
+
+#unit-test {
+  background-color: tomato;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+#hof {
+  background-color: green;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+ 
+#hardskills ul li img {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1201px) {
+
+
+  body { 
+    background-repeat: round;   
+  }
+
+
+#top {
+  bottom: 50px;
+  right: 9px;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  border-radius: 100%;
+}
+  
+  header {
+    justify-content: space-around;
+    height: 100px;
+  }
+  
+  #me {
+    font-size: 50px;      
+  }
+    
+  .icones-header {
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .icones-header:hover {
+    height: 70px;
+  }
+  
+  
+  #indice {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:  100px;
+    margin-top: 70px;
+  }
+  
+  #indice ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #indice ul li {
+    width: 30%;
+  }
+  
+  #about-me {
+flex-direction: row;
+  }
+  
+  .sobremim {
+    margin-top: 30px;
+    width: 60%;
+  }
+  
+  #mypicture {
+    display: flex;
+    height: 300px;
+    border-radius: 100%;
+  }
+  
+  #mypicture2 {
+    display: none;
+  }
+  
+  #softskills {
+    margin-top: 70px;
+    
+  }
+  
+  
+  #softskills ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 400px;
+  }
+  
+  #softskills ul li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    font-size: 40px;
+    height: 125px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #softskills ul li:hover {
+    background-color: rgb(129, 166, 187, 0.7);
+    color: yellow;
+  height: 130px;
+  width: 45%;
+  cursor: pointer;
+  font-size: 45px;
+  
+  }
+  
+  
+  #hardskills {
+    height: 300px;
+  }
+  
+  #hardskills ul {
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 200px;
+    
+  }
+  
+  #unit-test {
+    width: 450px;
+    height: 90px;
+    font-size: 60px;
+    
+  }
+  
+  #hof {
+    width: 450px;
+    height: 90px;
+    font-size: 60px;
+    
+  }
+  
+  #hardskills ul li img {
+    height: 90px; 
+  }
+  
+  }
+
+
+@media screen and (max-width: 1200px){
+
+    body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 40% 40%;
+    }
+    
+    header {
+      justify-content: space-around;
+      height: 100px;
+    }
+    
+
+    #top {
+      bottom: 50px;
+      right: 9px;
+      width: 80px;
+      height: 80px;
+      font-size: 50px;
+      border-radius: 100%;
+    }
+
+    
+    #me {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      font-size: 35px;  
+    }
+      
+    .icones-header {
+      height: 40px;
+    }
+    
+    .icones-header:hover {
+      height: 50px;  
+    }
+    
+    
+    #indice {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height:  100px;
+      margin-top: 70px;
+    }
+    
+    #indice ul {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    #indice ul li {
+      width: 30%;
+    }
+    #indice ul li a {
+      width: 30%;
+      font-size: 27px;
+    }
+
+    #about-me {
+    
+      flex-direction: column;
+    }
+    
+    .sobremim {
+      margin-top: 40px;
+      font-size: 25px;
+      width: 60%;
+    }
+    
+    #mypicture {
+      height: 300px;
+      border-radius: 100%;
+      display: none;
+    }
+    
+    #mypicture2 {
+      margin-top: 30px;
+      height: 300px;
+      border-radius: 100%;
+    }
+    
+    #softskills {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      width: 100%;
+      
+    }
+    
+    
+    #softskills ul {
+      padding: 0;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around;
+      align-items: center;
+      height: 400px;
+      width: 100%;
+    }
+    
+    #softskills ul li {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 45%;
+      font-size: 30px;
+      height: 90px;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    #softskills ul li:hover {
+      background-color: rgb(129, 166, 187, 0.7);
+      color: yellow;
+    height: 120px;
+    width: 350px;
+    cursor: pointer;
+    font-size: 40px;
+    
+    }
+    
+    
+    #hardskills {
+      height: 900px;
+    }
+    
+    #hardskills ul {
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 800px;
+      
+    }
+    
+    #unit-test {
+      width: 600px;
+      font-size: 60px;
+      
+    }
+    
+    #hof {
+      width: 600px;
+      font-size: 60px;
+      
+    }
+    
+    #hardskills ul li img {
+      width: 600px;
+      
+      border-radius: 5px;
+      
+    }
+    
+    
+  }
+
+@media screen and (max-width: 900px) {
+ 
+    body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 40% 40%;
+    }
+   
+    header {
+      height: 190px;
+    }
+    
+    #top {
+      bottom: 50px;
+      right: 6px;
+      width: 70px;
+      height: 70px;
+      font-size: 60px;
+      border-radius: 100%;
+    }
+
+    #link-bio {
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+    
+    #me {
+      margin: 0;
+      font-size: 45px;  
+      width: 100%;
+      text-align: center;
+    }
+      
+    .icones-header {
+      height: 60px;
+      border-radius: 5px;
+    }
+    
+    .icones-header:hover {
+      height: 75px; 
+    }
+    
+    
+    #indice {
+      height:  400px;
+    }
+
+    #indice ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    #indice ul li {
+      width: 100%;
+    }
+
+    #about-me {
+      flex-direction: column;
+    }
+    
+    .sobremim {
+      margin-top: 50px;
+      font-size: 30px;
+      width: 80%;
+    }
+    
+    #mypicture {
+      height: 300px;
+      border-radius: 100%;
+      display: none;
+    }
+    
+    #mypicture2 {
+      margin-top: 30px;
+      height: 300px;
+      width: 300px;
+      border-radius: 100%;
+    }
+    
+    #softskills {
+      margin-top: 60px;   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%; 
+    }
+    
+    
+    #softskills ul {
+      padding: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      height: 1200px;
+    }
+    
+    #softskills ul li {
+      width: 500px;
+      height: 170px;
+      font-size: 60px;
+    }
+    
+    #softskills ul li:hover {
+      background-color: rgb(129, 166, 187, 0.7);
+      color: yellow;
+    height: 160px;
+    width: 500px;
+    cursor: pointer;
+    font-size: 50px;
+    
+    }
+    
+    
+    #hardskills {
+      height: 800px;
+    }
+    
+    #hardskills ul {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      height: 700px;
+    }
+    
+    #unit-test {
+      width: 400px;
+      font-size: 70px;
+    }
+    
+    #hof {
+      width: 400px;
+      font-size: 70px;
+      
+    }
+    
+    #hardskills ul li img {
+      width: 400px; 
+    }
+    
+    
+  }
+
+
+@media screen and (max-width:600px) {
+    body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 40% 40%;
+    }
+   
+    header {
+      height: 400px;
+    }
+       
+    #top {
+      bottom: 50px;
+      right: 4px;
+      width: 50px;
+      height: 50px;
+      font-size: 40px;
+      border-radius: 100%;
+      color: black;
+      background-color: rgb(255, 255, 255, 0.7);
+    }
+
+
+    #link-bio {
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+    
+    
+    
+    #me {
+      margin: 0;
+      font-size: 70px;  
+      width: 100%;
+      text-align: center;
+    }
+      
+    .icones-header {
+      height: 60px;
+      border-radius: 5px;
+    }
+    
+    .icones-header:hover {
+      height: 75px;
+    }
+    
+    
+    #indice {
+      display: flex;
+      justify-content: center;
+    }
+    
+    #indice ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      align-items: center;
+    }
+
+  #indice ul li {
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    font-size: 80px;
+  }
+    
+    #indice  li a {
+    text-align: center;
+    padding: 0;
+    font-size: 150px;
+    padding:20px;
+    }
+    
+    #about-me {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 40px;
+    }
+    
+    .sobremim  {
+      margin-top: 40px;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .sobremim p {
+      width: 90%;
+    }
+  
+    #mypicture {
+      height: 300px;
+      border-radius: 100%;
+      display: none;
+    }
+  
+    #mypicture2 {
+      margin-top: 30px;
+      height: 300px;
+      width: 300px;
+      border-radius: 100%;
+    }
+    
+    #softskills {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      height: 800px;      
+    }
+    
+    
+    #softskills ul {
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-content: space-around;
+      align-items: center;
+      height: 800px;
+    }
+    
+    #softskills ul li {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 300px;
+      font-size: 30px;
+      height: 90px;
+      justify-content: center;
+      text-align: center;
+    }
+    
+  #softskills ul li:hover {
+
+    background-color: rgb(129, 166, 187, 0.7);
+    color: yellow;
+    height: 180px;
+    width: 80%;
+    cursor: pointer;
+    font-size: 45px;
+    
+    
+    
+  }
+
+
+    #hardskills {
+      flex-direction: column;
+      height: 600px;
+    }
+    
+    #hardskills ul {
+      flex-direction: column;
+      align-items: center;
+      height: 550px;
+      
+    }
+       
+    #hardskills ul li img {
+      width: 300px;   
+    }
+    
+    #unit-test {
+      width: 300px;
+      font-size: 50px;
+      
+    }
+    
+    #hof {
+      width: 300px;
+      font-size: 70px;
+      
+    }
+  
+  
+}
+  
+
+
+
+
+
+
+
+
+
+ 
