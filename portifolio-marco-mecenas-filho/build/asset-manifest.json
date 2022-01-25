@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6c826dd.chunk.css",
+    "main.js": "/static/js/main.5a7712d3.chunk.js",
+    "main.js.map": "/static/js/main.5a7712d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.87831706.js",
+    "runtime-main.js.map": "/static/js/runtime-main.87831706.js.map",
+    "static/css/2.945f44db.chunk.css": "/static/css/2.945f44db.chunk.css",
+    "static/js/2.4a049b68.chunk.js": "/static/js/2.4a049b68.chunk.js",
+    "static/js/2.4a049b68.chunk.js.map": "/static/js/2.4a049b68.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9496876ddff80ce5631b533ea54f032d.js": "/precache-manifest.9496876ddff80ce5631b533ea54f032d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.945f44db.chunk.css.map": "/static/css/2.945f44db.chunk.css.map",
+    "static/css/main.a6c826dd.chunk.css.map": "/static/css/main.a6c826dd.chunk.css.map",
+    "static/js/2.4a049b68.chunk.js.LICENSE.txt": "/static/js/2.4a049b68.chunk.js.LICENSE.txt",
+    "static/media/home.gif": "/static/media/home.e73cb5d3.gif",
+    "static/media/marcomecenasfilho-curriculo.pdf": "/static/media/marcomecenasfilho-curriculo.26b83b57.pdf",
+    "static/media/minhafoto2.jpg": "/static/media/minhafoto2.a1ebb368.jpg",
+    "static/media/playtunes.gif": "/static/media/playtunes.736aeafb.gif",
+    "static/media/receitasshowshow.gif": "/static/media/receitasshowshow.976a0965.gif",
+    "static/media/wallet.gif": "/static/media/wallet.4e081368.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87831706.js",
+    "static/css/2.945f44db.chunk.css",
+    "static/js/2.4a049b68.chunk.js",
+    "static/css/main.a6c826dd.chunk.css",
+    "static/js/main.5a7712d3.chunk.js"
+  ]
+}
