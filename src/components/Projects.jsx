@@ -46,7 +46,7 @@ export default function Projects() {
               <p>Plataforma de músicas</p>
               <nav>
                 <a href="https://github.com/MarcoMecenasFilho/PlayTunes" target="_blank" rel="noreferrer">Repositório</a>
-                <a href="https://playtunes.herokuapp.com/" target="_blank" rel="noreferrer">Aplicação</a>
+                <a href="https://playtunes.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
               </nav>
             </div>
           </div>
