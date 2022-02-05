@@ -20,7 +20,7 @@ export default function Projects() {
                   <p>Aplicativo de receitas</p>
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/receitasshowshow" target="_blank" rel="noreferrer">Repositório</a>
-                  <a href="https://receitasshoshow.herokuapp.com/" target="_blank" rel="noreferrer">Aplicação</a>
+                  <a href="https://receitasshowshow.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
                 </nav>
               </div>
             </div>
@@ -33,7 +33,7 @@ export default function Projects() {
               <p>Aplicativo de câmbio e carteira digital</p>
               <nav>
                 <a href="https://github.com/MarcoMecenasFilho/Wallet-Exchange-office" target="_blank" rel="noreferrer">Repositório</a>
-                <a href="https://wallet-exchange-office.herokuapp.com/" target="_blank" rel="noreferrer">Aplicação</a>
+                <a href="https://wallet-exchange-office.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
               </nav>
             </div>
             </div>
