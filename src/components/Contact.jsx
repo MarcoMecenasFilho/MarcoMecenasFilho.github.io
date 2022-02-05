@@ -12,7 +12,7 @@ export default function Contact() {
       "/></a>
       <div className='btn-curriculo'>
         <a href={ curriculo } download >
-          <Button>Currículo</Button>
+          <Button>cv</Button>
         </a>   
       </div>
       <a href="https://web.whatsapp.com//send?phone=5512997205627">
