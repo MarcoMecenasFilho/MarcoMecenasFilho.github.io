@@ -8,8 +8,9 @@ import '../style/portifolio.css';
 export default function  Portfolio() {
 const  [page, setPage] = useState('home')
 
+document.title = 'Marco Mecenas Filho'
   return (
-  <div className='main-container'>
+    <div className='main-container'>
     <section className='btns-section'>
       <button onClick={() => setPage('home')}>Home</button>
       <button onClick={() => setPage('sobremim')}>Sobre Mim</button>
