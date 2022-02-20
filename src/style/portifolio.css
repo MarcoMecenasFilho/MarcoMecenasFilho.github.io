@@ -35,6 +35,11 @@
   cursor: pointer;
 }
 
+.btns-section button:focus {
+  background-color: white;
+  color: black;
+}
+
 .main-content {
   background-color: black;
   display: flex;

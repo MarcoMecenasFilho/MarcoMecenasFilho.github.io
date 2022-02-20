@@ -2,15 +2,17 @@
   display: flex;
   justify-content: center;
   margin-top: 4%;
-  height: 100%;
+  height:100%;
   width: 100%;
 }
 
 .carousel {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 100%;
 }
+
+
 
 .carousel-card  {
   align-items: center;
@@ -19,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  
 }
 
 .carousel-card div {
@@ -72,12 +75,28 @@
   background-color: white;
 }
 
+.carousel-inner {
+  width: 80% !important;
+}
+
+.carousel-fade {
+  height: 100%;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
 @media screen and (max-width: 1200px) {
 
-  .carousel-container {
-    height: 100vh;
+  .carousel-inner {
+    width: 70% !important;
   }
 
+
+.carousel {
+  width: 100%;
+}
 
   .carousel-text nav {
     align-items: center;
@@ -89,9 +108,8 @@
     width: 100%;
   }
 }
-
+  
 @media screen and (max-width: 600px) {
-
   .carousel-text nav {
     align-items: center;
     flex-direction: column;
@@ -102,6 +120,15 @@
     width: 100%;
     font-size: 70%;
   }
+
+  .carousel-inner {
+    width: 70% !important;
+  }
+
+
+.carousel {
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 490px) {

@@ -6,7 +6,7 @@ import medalha from '../images/premio.png'
 import receitasshoshow from '../images/receitasshowshow.gif';
 import playtunes from '../images/playtunes.gif';
 import wallet from '../images/wallet.gif';
-
+import lembrei from '../images/lembrei.gif';
 export default function Projects() {
   return (
     <div className='carousel-container'>
@@ -21,6 +21,19 @@ export default function Projects() {
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/receitasshowshow" target="_blank" rel="noreferrer">Repositório</a>
                   <a href="https://receitasshowshow.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
+                </nav>
+              </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item className='carousel-card' >
+          <div>
+              <img src={ lembrei } alt="receitas"/>
+              <div className='carousel-text'>
+                  <h3>Lembrei!!!</h3>
+                  <p>Lista de Compras</p>
+                <nav>
+                  <a href="https://github.com/MarcoMecenasFilho/lembrei" target="_blank" rel="noreferrer">Repositório</a>
+                  <a href="https://lembrei.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
                 </nav>
               </div>
             </div>

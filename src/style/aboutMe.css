@@ -2,7 +2,6 @@
   align-items: flex-start;
   display: flex;
   justify-content: space-around;
-  height: 100vh;
   margin-top: 4%;
   width: 100%;
 }
@@ -40,10 +39,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
-  .about-me {
-    height: 100%;
-  }
 
   .about-div {
     align-items: center;
