@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: start;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .btns-section {
@@ -36,7 +37,7 @@
 }
 
 .btns-section button:focus {
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.8);
   color: black;
 }
 

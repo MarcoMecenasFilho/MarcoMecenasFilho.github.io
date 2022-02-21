@@ -1,9 +1,14 @@
 .carousel-container {
+  align-self: center;
   display: flex;
   justify-content: center;
-  margin-top: 4%;
+  margin-top: 1%;
   height:100%;
-  width: 100%;
+  width: 80%;
+}
+
+main.main-content {
+  justify-content: center;
 }
 
 .carousel {
@@ -76,7 +81,7 @@
 }
 
 .carousel-inner {
-  width: 80% !important;
+  width: 60% !important;
 }
 
 .carousel-fade {
