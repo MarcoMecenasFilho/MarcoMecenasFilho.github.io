@@ -1,12 +1,12 @@
 import React from 'react';
 import '../style/aboutMe.css'
-import minhafoto2 from '../images/minhafoto2.jpg'
+import me from '../images/me.gif'
 
 export default function AboutMe() {
   return (
     <div className='about-me'>
       <div className='about-div'>
-        <img src={minhafoto2} className='animate__animated animate__pulse animate__infinite	' width="300px" alt="marco-foto"/>
+        <img src={me} className='animate__animated animate__pulse animate__infinite	' width="300px" alt="marco-foto"/>
         <article className='text-aboutme animate__animated  animate__fadeIn'>
         <p> Olá, meu nome é Marco Antonio. Brasileiro e residente na cidade de São 
           José dos Campos/SP. Atualmente estou em transição de carreira. Partindo da área Química

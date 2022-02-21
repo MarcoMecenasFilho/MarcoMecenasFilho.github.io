@@ -61,11 +61,11 @@
 }
 
 .delay-1{
-  animation-delay: 0.3s;
+  animation-delay: 0.5s;
 }
 
 .delay-2{
-  animation-delay: 0.4s;
+  animation-delay: 0.7s;
 }
 
 @keyframes typing {

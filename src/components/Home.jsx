@@ -10,10 +10,10 @@ export default function Home() {
       <div className='home-text'>
         <h1>Olá, tudo bom? </h1>
         <p className='type-simple'>Sou o <span className='span-name'>Marco Mecenas Filho</span></p>
-        <p className='type-simple'>Desenvolvedor <span className='span-name'> Full-Stack</span></p>
+        <p className='type-simple delay-1'>Desenvolvedor <span className='span-name'> Full-Stack</span></p>
         <p>Seja bem vindo(a) ao meu portifólio</p>
         <h5>Teve uma grande ideia e não sabe como fazer ? </h5>
-        <h5 className='type-simple span-name'> Eu posso te ajudar</h5>
+        <h5 className='type-simple delay-2 span-name'> Eu posso te ajudar</h5>
       </div>
     </div>
   </div>;
