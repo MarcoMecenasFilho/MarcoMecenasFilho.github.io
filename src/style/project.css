@@ -1,16 +1,16 @@
-.carousel-container {
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 1%;
-  height:100%;
-  width: 80%;
-}
 
 main.main-content {
   justify-content: center;
 }
 
+.carousel-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height:100%;
+  width: 80%;
+}
 .carousel {
   display: flex;
   justify-content: center;
@@ -94,6 +94,11 @@ main.main-content {
 
 @media screen and (max-width: 1200px) {
 
+  main.main-content {
+    margin-top: 5%;
+    width: 100%;;
+  }
+
   .carousel-inner {
     width: 70% !important;
   }
@@ -115,6 +120,16 @@ main.main-content {
 }
   
 @media screen and (max-width: 600px) {
+  main.main-content {
+    margin-top: 15%;
+    width: 100%;;
+  }
+
+
+  .carousel-container {
+    width: 100%;
+  }
+
   .carousel-text nav {
     align-items: center;
     flex-direction: column;

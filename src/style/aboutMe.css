@@ -49,7 +49,12 @@
 
   .about-div img {
     border-radius: 100%;
-    width: 30%;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .text-aboutme{
+    width: 90%;
   }
   
 }
