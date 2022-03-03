@@ -7,6 +7,7 @@ import receitasshoshow from '../images/receitasshowshow.gif';
 import playtunes from '../images/playtunes.gif';
 import wallet from '../images/wallet.gif';
 import lembrei from '../images/lembrei.gif';
+import storemanager from '../images/storemanager.gif';
 export default function Projects() {
   return (
     <div className='carousel-container'>
@@ -21,6 +22,18 @@ export default function Projects() {
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/receitasshowshow" target="_blank" rel="noreferrer">Repositório</a>
                   <a href="https://receitasshowshow.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
+                </nav>
+              </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item className='carousel-card' >
+          <div>
+              <img src={ storemanager } alt="receitas"/>
+              <div className='carousel-text'>
+                  <h3>StoreManager</h3>
+                  <p>Gerenciamento de estoque</p>
+                <nav>
+                  <a href="https://github.com/MarcoMecenasFilho/storemanager" target="_blank" rel="noreferrer">Repositório</a>
                 </nav>
               </div>
             </div>
