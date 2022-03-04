@@ -1,0 +1,20 @@
+.footer-fixed  {
+  align-items: center;
+  border-top: 1px solid rgb(59, 59, 59);
+  background-color: black;
+  bottom: 0;
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.footer-fixed p {
+  margin: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}

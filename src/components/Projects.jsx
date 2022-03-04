@@ -19,6 +19,7 @@ export default function Projects() {
                   <p>&#127941; Projeto que mais me orgulho &#127941;</p>
                   <h3>Receitas Show Show</h3>
                   <p>Aplicativo de receitas</p>
+                  <p>Tecnologias utilizadas: JavaScript, HTML, CSS, ReactJs Hooks e BootStrap</p>
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/receitasshowshow" target="_blank" rel="noreferrer">Repositório</a>
                   <a href="https://receitasshowshow.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
@@ -32,6 +33,7 @@ export default function Projects() {
               <div className='carousel-text'>
                   <h3>StoreManager</h3>
                   <p>Gerenciamento de estoque</p>
+                  <p>Tecnologias utilizadas: JavaScript, NodeJs, Express, Mocha, Nyc, Chain, Sinon</p>
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/storemanager" target="_blank" rel="noreferrer">Repositório</a>
                 </nav>
@@ -44,6 +46,7 @@ export default function Projects() {
               <div className='carousel-text'>
                   <h3>Lembrei!!!</h3>
                   <p>Lista de Compras</p>
+                  <p>Tecnologias utilizadas: JavaScript, HTML, CSS, ReactJs Hooks e BootStrap</p>
                 <nav>
                   <a href="https://github.com/MarcoMecenasFilho/lembrei" target="_blank" rel="noreferrer">Repositório</a>
                   <a href="https://lembrei.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
@@ -57,6 +60,7 @@ export default function Projects() {
             <div className='carousel-text'>
               <h3>Wallet-Exchange-office</h3>
               <p>Aplicativo de câmbio e carteira digital</p>
+              <p>Tecnologias utilizadas: JavaScript, ReactJs Class, Redux, Jest, HTML, CSS e BootStrap</p>
               <nav>
                 <a href="https://github.com/MarcoMecenasFilho/Wallet-Exchange-office" target="_blank" rel="noreferrer">Repositório</a>
                 <a href="https://wallet-exchange-office.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
@@ -70,9 +74,10 @@ export default function Projects() {
             <div className='carousel-text'>
               <h3>PlayTunes</h3>
               <p>Plataforma de músicas</p>
+              <p>Tecnologias utilizadas: JavaScript, HTML, CSS e ReactJs Class</p> 
               <nav>
                 <a href="https://github.com/MarcoMecenasFilho/PlayTunes" target="_blank" rel="noreferrer">Repositório</a>
-                <a href="https://playtunes.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
+                <a href="https://playtunes.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>            
               </nav>
             </div>
           </div>
