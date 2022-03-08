@@ -9,7 +9,7 @@ export default function Home() {
       <img src={ home }  alt='logo' />
       <div className='home-text'>
         <h1>Olá, tudo bom? </h1>
-        <p className='type-simple'>Sou o <span className='span-name'>Marco Mecenas Filho</span></p>
+        <p className='type-simple'>Sou o <span className='span-name'>MARCO MECENAS FILHO</span></p>
         <p className='type-simple '>Desenvolvedor <span className='span-name'> Full-Stack</span></p>
         <p>Seja bem vindo(a) ao meu portifólio</p>
         <h5 className='h5-text'>Teve uma grande ideia e não sabe como fazer ? </h5>
