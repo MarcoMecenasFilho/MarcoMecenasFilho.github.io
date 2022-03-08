@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 5%;
   width: 100%;
 }
 
@@ -47,9 +46,16 @@
 }
 
 .btn-curriculo a button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(54, 54, 54) !important;
+  color: white;
+  justify-content: center;
+  height: 50px;
   margin-top: 0 !important;
+  border-style: none;
   font-size: 65%;
-  font-weight: 700;
+  font-weight: 500;
   width: 100%;
 }
 
@@ -83,22 +89,25 @@ form {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 
   .btn-curriculo a button {
-  font-size: 43%
+  font-size: 63%;
+  height: 40px;
 }
 }
 
 @media screen and (max-width: 600px) {
 
   .btn-curriculo a button {
+  height: 25px;
   font-size: 30%
 }
 
 @media screen and (max-width: 450px) {
 
   .btn-curriculo a button {
+    height: 20px;
   font-size: 25%
 }
 }

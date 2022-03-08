@@ -66,7 +66,9 @@
 }
 
 @media screen and (max-width: 450px){
-
+.main-content{
+  margin-top: 5% !important;
+}
   .btns-section {
     flex-wrap: nowrap;
     align-items: center;
