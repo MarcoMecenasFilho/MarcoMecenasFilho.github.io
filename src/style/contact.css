@@ -49,8 +49,8 @@ form {
   margin-bottom: 10px;
 }
 
-.button.btn.btn-lg.btn-dark.btn-block {
-  margin-left: 10px;
+.btn-dark {
+  margin-left: 10px !important;
 }
 
 @media screen and (max-width: 1366px) {
