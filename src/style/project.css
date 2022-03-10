@@ -7,9 +7,7 @@ main.main-content {
   align-self: center;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
-  height:100%;
-  width: 80%;
+  width: 100%;
 }
 .carousel {
   display: flex;
@@ -41,7 +39,7 @@ main.main-content {
 
 .carousel-card div img {
   border-radius: 10px;
-  width: 100%;
+  width: 90%;
 }
 
 
@@ -91,6 +89,7 @@ main.main-content {
 .carousel-indicators {
   display: none !important;
 }
+
 
 @media screen and (max-width: 1200px) {
 

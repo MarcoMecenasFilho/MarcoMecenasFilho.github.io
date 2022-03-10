@@ -14,7 +14,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-top: 1%;
   width: 100%;
 }
 
@@ -36,9 +35,9 @@
   cursor: pointer;
 }
 
-.btns-section button:focus {
-  background-color: rgb(255, 255, 255, 0.8);
-  color: black;
+.color {
+  background-color: rgb(255, 255, 255, 0.8) !important;
+  color: black !important;
 }
 
 .main-content {
@@ -48,6 +47,11 @@
   width: 90%;
 }
 
+@media screen and (max-width: 1366px) {
+  .main-content {
+    margin-top: 0;
+}
+}
 @media screen and (max-width: 850px){
   .main-container {
     margin-bottom: 100px;

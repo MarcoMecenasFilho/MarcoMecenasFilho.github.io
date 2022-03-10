@@ -8,17 +8,13 @@ export default function AboutMe() {
       <div className='about-div'>
         <img src={me} className='animate__animated animate__pulse animate__infinite	' width="300px" alt="marco-foto"/>
         <article className='text-aboutme animate__animated  animate__fadeIn'>
-        <p> Olá, meu nome é Marco Antonio. Brasileiro e residente na cidade de São 
-          José dos Campos/SP. Atualmente estou em transição de carreira. Partindo da área Química
-          para de Tecnologia. Sou estudante <strong> Full Stack de desenvolvimento web na
-          @Trybe</strong>. Possuo conhecimento e experiência com Desenvolvimento <strong>Front-end
-          </strong>, utilizando as tecnologias <strong>Git, CSS3, HTML5, JavaScripitES6, ReactJs
-          (class e functions), ContextAPI, Hooks, Redux, SQL, NodeJs e BootStrap</strong>.
-          </p>
-          <p> Formado em <strong>Química com Mestrado em Agroquímica</strong>. Possuo conhecimentos em sistema SAP e Lean
-          Six Sigma (Yellow belt). Possuo experiência em <strong>desenvolvimento de projetos de pesquisa, gestão
-          de equipes, metologia ágeis (Scrum e KanBan), organização de eventos e controladoria financeira </strong>.
+          <p> Formado em <strong>Química com Mestrado em Agroquímica</strong>. Atualmente estou realizando o curso <strong> Full Stack de desenvolvimento web na
+          @Trybe</strong>.
         </p>
+        <p>Possuo conhecimento e experiência com Desenvolvimento <strong>Front-end e Back-end
+          </strong>, utilizando as tecnologias <strong>Git, CSS3, HTML5, JavaScripitES6, ReactJs
+          (class e functions), ContextAPI, Hooks, Redux, SQL, NodeJs, Mocha, Chai, Sinon, Docker e BootStrap</strong>.
+          </p>
         <p>Para visualizar todas as minhas informações de formação e experiências profissionais anteriores.  Acessar meu {
           <a href="https://www.linkedin.com/in/marcomecenasfilho/" target="_blank">LinkeDin </a>}
         </p>
