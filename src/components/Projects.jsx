@@ -1,86 +1,34 @@
 import React from 'react';
 import '../style/project.css'
 import Carousel from 'react-bootstrap/Carousel'
-import medalha from '../images/premio.png'
+import Lembrei from './projects/Lembrei';
+import ReceitasShowShow from './projects/ReceitasShowShow';
+import StoreManager from './projects/StoreManager';
+import Wallet from './projects/Wallet';
+import PlayTunes from './projects/PlayTunes';
+import BlogsAPI from './projects/BlogsAPI';
 
-import receitasshoshow from '../images/receitasshowshow.gif';
-import playtunes from '../images/playtunes.gif';
-import wallet from '../images/wallet.gif';
-import lembrei from '../images/lembrei.gif';
-import storemanager from '../images/storemanager.gif';
 export default function Projects() {
   return (
     <div className='carousel-container'>
       <Carousel className='carousel' fade interval={3000}>
         <Carousel.Item className='carousel-card' >
-          <div>
-              <img src={ receitasshoshow } alt="receitas"/>
-              <div className='carousel-text'>
-                  <p>&#127941; Projeto que mais me orgulho &#127941;</p>
-                  <h3>Receitas Show Show</h3>
-                  <p>Aplicativo de receitas</p>
-                  <p>Tecnologias utilizadas: JavaScript, HTML, CSS, ReactJs Hooks e BootStrap</p>
-                <nav>
-                  <a href="https://github.com/MarcoMecenasFilho/receitasshowshow" target="_blank" rel="noreferrer">Repositório</a>
-                  <a href="https://receitasshowshow.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
-                </nav>
-              </div>
-            </div>
-        </Carousel.Item>
-        <Carousel.Item className='carousel-card' >
-          <div>
-              <img src={ storemanager } alt="receitas"/>
-              <div className='carousel-text'>
-                  <h3>StoreManager</h3>
-                  <p>Gerenciamento de estoque</p>
-                  <p>Tecnologias utilizadas: JavaScript, NodeJs, Express, Mocha, Nyc, Chain, Sinon</p>
-                <nav>
-                  <a href="https://github.com/MarcoMecenasFilho/storemanager" target="_blank" rel="noreferrer">Repositório</a>
-                </nav>
-              </div>
-            </div>
-        </Carousel.Item>
-        <Carousel.Item className='carousel-card' >
-          <div>
-              <img src={ lembrei } alt="receitas"/>
-              <div className='carousel-text'>
-                  <h3>Lembrei!!!</h3>
-                  <p>Lista de Compras</p>
-                  <p>Tecnologias utilizadas: JavaScript, HTML, CSS, ReactJs Hooks e BootStrap</p>
-                <nav>
-                  <a href="https://github.com/MarcoMecenasFilho/lembrei" target="_blank" rel="noreferrer">Repositório</a>
-                  <a href="https://lembrei.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
-                </nav>
-              </div>
-            </div>
+          <ReceitasShowShow />
         </Carousel.Item>
         <Carousel.Item className='carousel-card'>
-          <div>
-            <img src={ wallet } alt="receitas"/>
-            <div className='carousel-text'>
-              <h3>Wallet-Exchange-office</h3>
-              <p>Aplicativo de câmbio e carteira digital</p>
-              <p>Tecnologias utilizadas: JavaScript, ReactJs Class, Redux, Jest, HTML, CSS e BootStrap</p>
-              <nav>
-                <a href="https://github.com/MarcoMecenasFilho/Wallet-Exchange-office" target="_blank" rel="noreferrer">Repositório</a>
-                <a href="https://wallet-exchange-office.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
-              </nav>
-            </div>
-            </div>
+          <BlogsAPI />
         </Carousel.Item>
-        <Carousel.Item className='carousel-card'>
-          <div>
-            <img src={ playtunes } alt="receitas"/>
-            <div className='carousel-text'>
-              <h3>PlayTunes</h3>
-              <p>Plataforma de músicas</p>
-              <p>Tecnologias utilizadas: JavaScript, HTML, CSS e ReactJs Class</p> 
-              <nav>
-                <a href="https://github.com/MarcoMecenasFilho/PlayTunes" target="_blank" rel="noreferrer">Repositório</a>
-                <a href="https://playtunes.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>            
-              </nav>
-            </div>
-          </div>
+        <Carousel.Item className='carousel-card' >
+          <StoreManager />
+        </Carousel.Item>
+        <Carousel.Item className='carousel-card' >
+          <Lembrei />
+        </Carousel.Item>
+        <Carousel.Item className='carousel-card' >
+          <PlayTunes />
+        </Carousel.Item>
+        <Carousel.Item className='carousel-card' >
+          <Wallet />
         </Carousel.Item>
       </Carousel>
     </div>
